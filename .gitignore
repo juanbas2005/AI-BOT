@@ -1,2 +1,27 @@
-*.rbc
-*.fyc
+# Secretos
+.env
+*.env
+
+# Base de datos local
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Editores y sistema
+.idea/
+.vscode/
+.DS_Store
